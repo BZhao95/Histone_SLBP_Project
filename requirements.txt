@@ -1,0 +1,7 @@
+biopython
+pandas
+matplotlib
+numpy
+ete3
+scipy
+
