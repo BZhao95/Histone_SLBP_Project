@@ -3,6 +3,7 @@
 A comprehensive pipeline for identifying and analyzing Stem-Loop Binding Protein (SLBP) orthologs and replication-dependent histone processing elements across eukaryotes.
 
 ## Repository Structure
+```text
 Histone_SLBP_Project/
 |- bin/	#Executable Bash and Python Scripts
 |- data/	#Raw input FASTA files
