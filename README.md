@@ -5,11 +5,11 @@ A comprehensive pipeline for identifying and analyzing Stem-Loop Binding Protein
 ## Repository Structure
 ```text
 Histone_SLBP_Project/
-|- bin/	#Executable Bash and Python Scripts
-|- data/	#Raw input FASTA files
-|- results/	#Analysis outputs, e.g. metafile, figures and etc. 
-|- logs/	#errors
-|- requirements.txt	#Packages required for this project
+|- bin/			# scripts
+|- data/		# input FASTA
+|- results/		# outputs
+|- logs/		# errors
+|- requirements.txt	# dependencies
 |- Readme.md
 ```
 ## Pipeline Overview
