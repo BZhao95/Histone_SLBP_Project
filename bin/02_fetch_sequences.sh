@@ -48,7 +48,7 @@ for BATCH in accession_batch_*; do
         echo "[WARNING] Batch $BATCH failed. Logged for retry."
     fi
     
-    sleep 2  # Rate limiting compliance
+    sleep 2  # avoid violating NCBI rules
 done
 
 # Cleanup temporary batch files
