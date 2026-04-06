@@ -1,6 +1,15 @@
-# SLBP and Histone Processing
+# Evolutionary of histone mRNA 3' end processing machinery in eukaryotes
 
-A comprehensive pipeline for identifying Stem-Loop Binding Protein (SLBP) orthologs and replication-dependent histone processing elements across eukaryotes.
+A comprehensive pipeline for identifying and analyzing Stem-Loop Binding Protein (SLBP) orthologs and replication-dependent histone processing elements across eukaryotes.
+
+## Repository Structure
+Histone_SLBP_Project/
+|- bin/	#Executable Bash and Python Scripts
+|- data/	#Raw input FASTA files
+|- results/	#Analysis outputs, e.g. metafile, figures and etc. 
+|- logs/	#errors
+|- requirements.txt	#Packages required for this project
+|- Readme.md
 
 ## Pipeline Overview
 1. **Protein Identification**: Remote BLASTP and jackhmmer searches for SLBP, LSM10/11, and FLASH.
@@ -12,5 +21,10 @@ A comprehensive pipeline for identifying Stem-Loop Binding Protein (SLBP) orthol
 - NCBI BLAST+
 - HMMER 3.x
 - RNAfold (ViennaRNA)
-- Python 3.8+ (see requirements.txt)
+- Python 3.8+
+- cmsearch
+- MAFFT
+- FastTree
+- ete3
+
 
