@@ -11,7 +11,7 @@ Histone_SLBP_Project/
 |- logs/	#errors
 |- requirements.txt	#Packages required for this project
 |- Readme.md
-
+```
 ## Pipeline Overview
 1. **Protein Identification**: Remote BLASTP and jackhmmer searches for SLBP, LSM10/11, and FLASH.
 2. **Domain Verification**: RPS-BLAST and HMMER profiling for RBD (PF15247) and HFD domains.
